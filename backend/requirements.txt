@@ -1,0 +1,41 @@
+# Core Framework & Server
+
+Flask==3.0.3
+
+Werkzeug==3.0.3
+
+
+
+# Database & ORM
+
+Flask-SQLAlchemy==3.1.1
+
+SQLAlchemy==2.0.30
+
+psycopg2-binary>=2.9.9
+
+
+
+# Environment & Configuration
+
+python-dotenv==1.0.1
+
+
+
+# Cross-Origin Resource Sharing (for dev and frontend proxying)
+
+Flask-Cors==4.0.1
+
+
+
+# Supabase SDK (used for client utilities and future admin/auth verification)
+
+supabase==2.4.0
+
+
+
+# JWT verification (for cryptographically verifying Supabase tokens in Increment 3)
+
+PyJWT==2.8.0
+
+cryptography==42.0.7
