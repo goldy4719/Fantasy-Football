@@ -10,6 +10,5 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))
     debug = os.getenv("FLASK_DEBUG", "1") == "1"
     
-    # 0.0.0.0 makes the server accessible across local network/containers,
     # or you can use "127.0.0.1" for strictly local host access
-    app.run(host="0.0.0.0", port=port, debug=debug)
+    app.run(host="127.0.0.1", port=port, debug=debug)
