@@ -20,7 +20,7 @@ def create_app():
     db.init_app(app)
 
     # Register Blueprint routes
-    from app.routes.matchups import matchups_bp
+    from app.routes.matchup import matchups_bp
     from app.routes.teams import teams_bp
     from app.routes.admin import admin_bp
 
