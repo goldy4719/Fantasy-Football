@@ -20,3 +20,6 @@ dist-ssr/
 Thumbs.db
 .vscode/
 .idea/
+
+#Personal Notes
+notes.txt
